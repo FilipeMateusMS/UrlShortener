@@ -54,7 +54,7 @@ http://localhost:8080/api
 | ------ | -------------------------------- | ------------------------------- |
 | POST   | `/api/shorten`                   | Cria uma URL encurtada          |
 | GET    | `/api/shorten/{shortCode}`       | Retorna a URL original          |
-| GET    | `/{shortCode}`                   | Redireciona para a URL original |
+| GET    | `/api/{shortCode}`                   | Redireciona para a URL original |
 | PUT    | `/api/shorten/{shortCode}`       | Atualiza a URL original         |
 | DELETE | `/api/shorten/{shortCode}`       | Remove uma URL encurtada        |
 | GET    | `/api/shorten/{shortCode}/stats` | Retorna estatísticas da URL     |
